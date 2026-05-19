@@ -58,7 +58,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
           <h1 className="text-2xl font-bold text-cyan-400 tracking-wide">
-            Adarsh
+            Adarsh J M
           </h1>
 
           <div className="hidden md:flex gap-8 text-gray-300">
@@ -105,7 +105,7 @@ function App() {
 
               <img
                 src={profile}
-                alt="Adarsh"
+                alt="Adarsh J M"
                 className="relative w-[320px] h-[320px] md:w-[420px] md:h-[420px] object-cover rounded-full border-4 border-cyan-400 shadow-2xl shadow-cyan-500/30"
               />
 
@@ -573,7 +573,7 @@ function App() {
       {/* FOOTER */}
 
       <footer className="border-t border-zinc-800 py-8 text-center text-gray-500">
-        © 2026 Adarsh • Data Analytics Portfolio
+        © 2026 Adarsh J M • Data Analytics Portfolio
       </footer>
 
     </div>
