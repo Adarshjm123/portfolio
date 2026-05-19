@@ -1,4 +1,7 @@
 import profile from './assets/profile.jpeg'
+import mobile from './assets/mobile.png'
+import banking from './assets/banking.png'
+import hospital from './assets/hospital.png'
 
 function App() {
 
@@ -17,7 +20,7 @@ function App() {
 
   const projects = [
     {
-      emoji: "📊",
+      emoji: "mobile",
       title: "Mobile Sales Dashboard",
       description:
         "Analyzed ₹769M+ mobile sales data to identify customer behavior, regional performance, and top-selling mobile brands using Power BI.",
@@ -27,7 +30,7 @@ function App() {
     },
 
     {
-      emoji: "🏦",
+      emoji: "banking",
       title: "Banking Risk Analysis",
       description:
         "Performed banking customer transaction analysis to detect fraud patterns, customer churn, and high-risk financial behavior.",
@@ -37,7 +40,7 @@ function App() {
     },
 
     {
-      emoji: "🏥",
+      emoji: "hospital",
       title: "Hospital ER Dashboard",
       description:
         "Built a healthcare analytics dashboard to monitor patient wait times, demographics, department referrals, and operational KPIs.",
@@ -250,9 +253,15 @@ function App() {
               className="bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden hover:border-cyan-400 transition duration-300 hover:-translate-y-3 shadow-2xl"
             >
 
-              <div className="h-56 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 flex items-center justify-center text-7xl">
-                {project.emoji}
-              </div>
+              <div className="h-56 overflow-hidden">
+
+  <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-full object-cover hover:scale-110 transition duration-500"
+  />
+
+</div>
 
               <div className="p-8">
 
