@@ -44,7 +44,7 @@ function App() {
       title: "Hospital ER Dashboard",
       description:
         "Built a healthcare analytics dashboard to monitor patient wait times, demographics, department referrals, and operational KPIs.",
-      tech: "Power BI • Excel",
+      tech: "Pivot Tables • Power Query • Excel",
       metrics: ["Patient Insights", "Wait Time KPIs", "Operational Analytics"],
       github: "https://github.com/Adarshjm123/Hospital-Emergency-Room-Dashboard"
     }
