@@ -256,7 +256,7 @@ const projects = [
             >
 
               <div className="h-56 overflow-hidden">
-
+<p>{project.image}</p>
   <img
     src={project.image}
     alt={project.title}
