@@ -40,7 +40,7 @@ function App() {
     },
 
     {
-      emoji: "hospital",
+      emoji: "Hospital",
       title: "Hospital ER Dashboard",
       description:
         "Built a healthcare analytics dashboard to monitor patient wait times, demographics, department referrals, and operational KPIs.",
