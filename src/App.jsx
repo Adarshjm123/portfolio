@@ -18,37 +18,39 @@ function App() {
     "Power Query"
   ]
 
-  const projects = [
-    {
-      emoji: "mobile",
-      title: "Mobile Sales Dashboard",
-      description:
-        "Analyzed ₹769M+ mobile sales data to identify customer behavior, regional performance, and top-selling mobile brands using Power BI.",
-      tech: "Power BI • DAX • Power Query",
-      metrics: ["₹769M+ Sales", "19K Orders", "4K Transactions"],
-      github: "https://github.com/Adarshjm123/mobile-sales-dashboard"
-    },
+const projects = [
 
-    {
-      emoji: "banking",
-      title: "Banking Risk Analysis",
-      description:
-        "Performed banking customer transaction analysis to detect fraud patterns, customer churn, and high-risk financial behavior.",
-      tech: "SQL • MySQL • Power BI",
-      metrics: ["10K+ Records", "Fraud Detection", "Churn Analysis"],
-      github: "https://github.com/Adarshjm123/Banking-Customer-Transaction-Risk-Analysis"
-    },
+  {
+    image: mobile,
+    title: "Mobile Sales Dashboard",
+    description:
+      "Analyzed ₹769M+ mobile sales data to identify customer behavior, regional performance, and top-selling mobile brands using Power BI.",
+    tech: "Power BI • DAX • Power Query",
+    metrics: ["₹769M+ Sales", "19K Orders", "4K Transactions"],
+    github: "https://github.com/Adarshjm123/mobile-sales-dashboard"
+  },
 
-    {
-      emoji: "Hospital",
-      title: "Hospital ER Dashboard",
-      description:
-        "Built a healthcare analytics dashboard to monitor patient wait times, demographics, department referrals, and operational KPIs.",
-      tech: "Pivot Tables • Power Query • Excel",
-      metrics: ["Patient Insights", "Wait Time KPIs", "Operational Analytics"],
-      github: "https://github.com/Adarshjm123/Hospital-Emergency-Room-Dashboard"
-    }
-  ]
+  {
+    image: banking,
+    title: "Banking Risk Analysis",
+    description:
+      "Performed banking customer transaction analysis to detect fraud patterns, customer churn, and high-risk financial behavior.",
+    tech: "SQL • MySQL • Power BI",
+    metrics: ["10K+ Records", "Fraud Detection", "Churn Analysis"],
+    github: "https://github.com/Adarshjm123/Banking-Customer-Transaction-Risk-Analysis"
+  },
+
+  {
+    image: hospital,
+    title: "Hospital ER Dashboard",
+    description:
+      "Built a healthcare analytics dashboard to monitor patient wait times, demographics, department referrals, and operational KPIs.",
+    tech: "Pivot Tables • Power Query • Excel",
+    metrics: ["Patient Insights", "Wait Time KPIs", "Operational Analytics"],
+    github: "https://github.com/Adarshjm123/Hospital-Emergency-Room-Dashboard"
+  }
+
+]
 
   return (
 
